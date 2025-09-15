@@ -94,10 +94,10 @@ The project focuses on **multi-objective optimization**:
 
 ## 🚀 How to Run
 1. Clone this repository  
-   ```bash
-   git clone https://github.com/your-username/ai-production-scheduling.git
-   cd ai-production-scheduling
-   ```
+```bash
+git clone https://github.com/your-username/ai-production-scheduling.git
+cd ai-production-scheduling
+```
 2. Install dependencies
 ```bash
 pip install pandas numpy matplotlib scikit-learn
@@ -107,19 +107,16 @@ pip install pandas numpy matplotlib scikit-learn
 python ds_production_scheduling.py
 ```
 4. Outputs generated:
-    Console comparison of heuristic vs GA
-    Gantt charts for visualization
-    optimized_schedule.csv with best schedule
+- Console comparison of heuristic vs GA
+- Gantt charts for visualization
+- optimized_schedule.csv with best schedule
 
 ## 🔮 Future Work
 
-Enforce workforce constraint (max 2 machines in parallel)
-
-Integrate machine breakdown simulation
-
-Deploy scheduling as a web-based dashboard
-
-Extend to multi-factory scheduling with cloud/edge computing
+- Enforce workforce constraint (max 2 machines in parallel)
+- Integrate machine breakdown simulation
+- Deploy scheduling as a web-based dashboard
+- Extend to multi-factory scheduling with cloud/edge computing
 
 ## 📜 License
 
